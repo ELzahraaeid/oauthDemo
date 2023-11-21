@@ -52,9 +52,9 @@ const SingleFileUploader = () => {
     fetch(
       'https://accounts.google.com/o/oauth2/auth?client_id=348209554476-dcsr88aqge22ggsr18uqtkdtiofjkulb.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fb514-197-39-224-23.ngrok-free.app&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fphotoslibrary.appendonly&response_type=code&response_mode=query&state=8aqsa6owfc6&nonce=oibzzshunss',
       {
-        headers: {
-          'ngrok-skip-browser-warning': true,
-        },
+        // headers: {
+        //   'ngrok-skip-browser-warning': true,
+        // },
         referrerPolicy: 'no-referrer-when-downgrade',
         body: null,
         method: 'GET',
